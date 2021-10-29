@@ -8,6 +8,7 @@ public class Animal {
 */
 
 //Chapter .5
+/*
 public class Animal {
 
     int age;
@@ -27,3 +28,4 @@ public class Animal {
         energy = energy + 1;
     }
 }
+*/

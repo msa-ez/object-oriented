@@ -27,6 +27,7 @@ public class Cat extends Animal {
 
 
 // Chapter .5
+/*
 public class Cat extends Animal {
     public void say() {
         System.out.println("냐옹");
@@ -36,4 +37,5 @@ public class Cat extends Animal {
         energy = energy + 2;
     }
 }
+*/
 

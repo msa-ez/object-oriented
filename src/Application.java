@@ -64,6 +64,7 @@ public class Application {
 */
 
 // Chapter .5
+/*
 public class Application {
     public static void main(String args[]) throws Exception {
         System.out.println("선택한 동물은: " + args[0]);
@@ -80,3 +81,4 @@ public class Application {
         me = null;
     }
 }
+*/

@@ -26,6 +26,7 @@ public class Dog extends Animal {
 */
 
 // Chapter .5
+/*
 public class Dog extends Animal {
     public void say() {
         System.out.println("멍멍");
@@ -34,3 +35,4 @@ public class Dog extends Animal {
         energy = energy + 2;
     }
 }
+*/

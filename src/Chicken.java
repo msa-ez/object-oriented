@@ -17,8 +17,10 @@ public class Chicken {
 */
 
 // Chapter .4, 5
+/*
 public class Chicken extends Animal {
     public void say() {
         System.out.println("꼬꼬댁");
     }
 }
+*/
