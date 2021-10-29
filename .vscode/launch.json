@@ -9,7 +9,7 @@
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "args":"Cat"
+            "args":"Dog"
         },
         {
             "type": "java",
@@ -17,7 +17,7 @@
             "request": "launch",
             "mainClass": "Application",
             "projectName": "object-oriented_ca434e3f",
-            "args":"Cat"
+            "args":"Dog"
         }
     ]
 }
