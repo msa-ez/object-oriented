@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Separation-of-Concerns/src",
         "1st-Lab/src",
-        "Separation-of-Concerns/src"
+        "car-sim/sim0/src"
     ]
 }
