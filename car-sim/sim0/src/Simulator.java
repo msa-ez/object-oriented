@@ -42,7 +42,7 @@ public class Simulator {
 }
 */
 // Chapter .3,4
-
+/*
 public class Simulator {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
         Car theCar = (Car) Class.forName(args[0]).newInstance();
@@ -56,3 +56,4 @@ public class Simulator {
         }
     }
 }
+*/

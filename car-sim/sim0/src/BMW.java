@@ -1,5 +1,5 @@
 // Chapter .3
-
+/*
 public class BMW extends Car {
     @Override
     public double getZeroToHundred() {
@@ -10,3 +10,4 @@ public class BMW extends Car {
         return 100 / getCurrentSpeed();
     }
 }
+*/

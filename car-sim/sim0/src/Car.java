@@ -1,4 +1,5 @@
 // Chapter .3
+/*
 public abstract class Car {
     double currentSpeed = 0;
         public double getCurrentSpeed() {
@@ -23,3 +24,4 @@ public abstract class Car {
     abstract public double getZeroToHundred();
     abstract public double getCurrentFuelEconomy();
 }
+*/
