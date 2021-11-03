@@ -18,6 +18,7 @@ public abstract class Pet {
 */
 
 // Chapter .2
+/*
 package src;
 
 public abstract class Pet {
@@ -38,3 +39,23 @@ public abstract class Pet {
     }
     abstract public void speak();
 }
+*/
+
+//sequence diagram and code
+//Chapter .1
+/*
+public abstract class Pet {
+    String name;
+    Double weight = 0.0;
+    Double energy = 0.0;
+    Tag[] tags;
+
+    public void sleep() {
+        energy += 10;
+    }
+    public void eat() {
+        energy += 10;
+    }
+    abstract public void speak();
+}
+*/

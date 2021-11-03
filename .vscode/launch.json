@@ -6,28 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Application",
+            "request": "launch",
+            "mainClass": "Application",
+            "projectName": "object-oriented_ca434e3f"
+        },
+        {
+            "type": "java",
             "name": "Launch Simulator",
             "request": "launch",
             "mainClass": "Simulator",
             "projectName": "object-oriented_ca434e3f",
             "args": "BMW"
-        },
-        /*
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}",
-            "args": "Dog"
-        },
-        {
-            "type": "java",
-            "name": "Launch Application",
-            "request": "launch",
-            "mainClass": "Application",
-            "projectName": "object-oriented_ca434e3f",
-            "args": "Dog"
         }
-        */
     ]
 }

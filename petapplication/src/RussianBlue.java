@@ -1,6 +1,5 @@
 // Chapter .1, 2
-package src;
-
+/*
 public class RussianBlue extends Cat {
     @Override
     public void eat() {
@@ -9,3 +8,4 @@ public class RussianBlue extends Cat {
         super.eat();
     }
 }
+*/
