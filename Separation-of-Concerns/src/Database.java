@@ -32,3 +32,17 @@ public class Database {
     }
 }
 */
+
+
+// 팩토리 패턴
+// Chapter .1
+public class Database {
+    public void save(String arg) {
+        if(arg == null) {
+            throw new RuntimeException("저장값은 null 이면 안됩니다.");
+        }
+    }
+    public void load() {
+        
+    }
+}

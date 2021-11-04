@@ -24,3 +24,21 @@ public class AddressbookPresentation extends Presentation{
     }
 }
 */
+
+// 팩토리 패턴
+// Chapter .1
+import javax.swing.*;
+
+public class AddressbookPresentation extends Presentation {
+    public AddressbookPresentation(final BusinessLogic businessLogic) {
+        super(businessLogic);
+        //TODO Auto-generated constructor stub
+    }
+    @Override
+    public void doPresentation(String arg) {
+        super.doPresentation(arg);
+
+        System.out.println(" ******** 주소록 프로그램 ******** " );
+        System.out.println(" 결과는 " + this.businessLogic.doBusinessLogic(arg) + " 입니다. " );
+    }
+}

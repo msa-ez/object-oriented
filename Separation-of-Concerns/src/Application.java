@@ -27,7 +27,40 @@ public class Application {
 }
 */
 
+// 팩토리 패턴
+//Chapter .1
+/*
+public abstract class Application {
+    public static void main(String args[]) throws Exception {
+        
+        Application application = (Application)Class.forName("ApplicationFor" + args[0]).newInstance();
 
+        Presentation presentation = application.createPresentation();
 
+        presentation.doPresentation("test");
+    }
+    abstract public Presentation createPresentation();
+}
+*/
+
+//Chapter .2
+public abstract class Application {
+    public static void main(String args[]) throws Exception {
+        
+        Application application = (Application)Class.forName("ApplicationFor" + args[0]).newInstance();
+
+        Presentation presentation = application.createPresentation();
+        BusinessLogic businessLogic = application.createBusinessLogic();
+        Database database = application.createDatabase();
+
+        presentation.setBusinessLogic(businessLogic);
+        BusinessLogic.setDatabase(database);
+
+        presentation.doPresentation("test");
+    }
+    abstract public Presentation createPresentation();
+    abstract public Database createDatabase();
+    abstract public BusinessLogic createBusinessLogic();
+}
 
  

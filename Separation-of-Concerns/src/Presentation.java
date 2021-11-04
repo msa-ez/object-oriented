@@ -39,3 +39,32 @@ public class Presentation {
     }
 }
 */
+
+// 팩토리 패턴
+// Chapter .1
+/*
+public class Presentation {
+    BusinessLogic businessLogic;
+    public Presentation(BusinessLogic businessLogic) {
+        this.businessLogic = businessLogic;
+    }
+    public void doPresentation(String arg) {
+        System.out.println(" 결과는 " + businessLogic.doBusinessLogic(arg) + " 입니다. ");
+    }
+}
+*/
+
+// Chapter .2
+public class Presentation {
+    BusinessLogic businessLogic;
+
+        public BusinessLogic getBusinessLogic() {
+            return businessLogic;
+        }
+        public void setBusinessLogic(BusinessLogic businessLogic) {
+            this.businessLogic = businessLogic;
+        }
+    public void doPresentation(String arg) {
+        System.out.println(" 결과는 " + businessLogic.doBusinessLogic(arg) + " 입니다. ");
+    }
+}
