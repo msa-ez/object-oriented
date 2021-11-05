@@ -21,6 +21,8 @@
 ![Tag](https://user-images.githubusercontent.com/59447401/140011273-38ef9177-dea4-4abc-b531-109bfc74cd63.png)
 ![Sequence Diagram](https://user-images.githubusercontent.com/59447401/140256597-458e1e0c-ebcb-4448-b7ac-319c3e94dd14.png)
 ![스크린샷 2021-11-04 오후 4 37 57](https://user-images.githubusercontent.com/59447401/140274980-b1c6e833-1b95-4173-b3bc-21d0bdc5444f.png)
+![windowsMode](https://user-images.githubusercontent.com/59447401/140464572-1eb686b0-25aa-45df-a483-32f1df7a55fe.png)
+![demo](https://user-images.githubusercontent.com/59447401/140476095-3dea2669-84b2-4ccc-ae1b-8ad82c007358.png)
 
 
 
