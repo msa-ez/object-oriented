@@ -1,5 +1,4 @@
 //Chapter .1
-
 package demo;
 
 class ProxyImage implements Image {
@@ -22,6 +21,28 @@ class ProxyImage implements Image {
     public void displayImage() {
         if (image == null) {
            image = new RealImage(filename);
+        }
+        image.displayImage();
+    }
+}
+
+
+//Chapter .2
+package demo;
+
+class ProxyImage implements Image {
+    private final String filename;
+    private RealImage image;
+    private String rawImage;
+    
+    public ProxyImage(String filename) {
+        this.filename = filename;
+    }
+
+    public void displayImage() {
+        if (image == null) {
+           image = new RealImage(filename);
+           rawImage = image.getRawImage();
         }
         image.displayImage();
     }
