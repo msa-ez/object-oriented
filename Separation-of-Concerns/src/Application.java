@@ -44,6 +44,7 @@ public abstract class Application {
 */
 
 //Chapter .2
+/*
 public abstract class Application {
     public static void main(String args[]) throws Exception {
         
@@ -54,7 +55,7 @@ public abstract class Application {
         Database database = application.createDatabase();
 
         presentation.setBusinessLogic(businessLogic);
-        BusinessLogic.setDatabase(database);
+        businessLogic.setDatabase(database);
 
         presentation.doPresentation("test");
     }
@@ -62,5 +63,5 @@ public abstract class Application {
     abstract public Database createDatabase();
     abstract public BusinessLogic createBusinessLogic();
 }
-
+*/
  

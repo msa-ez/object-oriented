@@ -35,7 +35,8 @@ public class Database {
 
 
 // 팩토리 패턴
-// Chapter .1
+// Chapter .1,2
+/*
 public class Database {
     public void save(String arg) {
         if(arg == null) {
@@ -46,3 +47,4 @@ public class Database {
         
     }
 }
+*/

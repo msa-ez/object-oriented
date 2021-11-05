@@ -15,7 +15,9 @@ public class ApplicationForABCCompany extends Application{
 }
 */
 
+
 //Chapter .2
+/*
 public class ApplicationForABCCompany extends Application{
 
     @Override
@@ -30,6 +32,5 @@ public class ApplicationForABCCompany extends Application{
     public BusinessLogic createBusinessLogic() {
         return new AddressbookBusinessLogic();
     }
-    
 }
- 
+*/

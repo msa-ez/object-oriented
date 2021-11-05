@@ -10,7 +10,7 @@
             "request": "launch",
             "mainClass": "Application",
             "projectName": "object-oriented_ca434e3f",
-            "args": "ABCCompany"
+            "args": "YourCompany"
         },
         {
             "type": "java",

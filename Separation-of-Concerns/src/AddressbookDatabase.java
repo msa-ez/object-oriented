@@ -16,7 +16,8 @@ public class AddressbookDatabase extends Database{
 */
 
 // 팩토리 패턴
-//Chapter .1
+//Chapter .1,2
+/*
 public class AddressbookDatabase extends Database{
     @Override
     public void load() {
@@ -30,3 +31,4 @@ public class AddressbookDatabase extends Database{
         System.out.println("insert addressbook values(" + arg + ")");
     }
 }
+*/

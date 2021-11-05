@@ -79,6 +79,7 @@ public class BusinessLogic {
 
 // Chapter .2
 // - Getters and Setters 추가
+/*
 public class BusinessLogic {
     Database database;
         // Getters and Setters라고 하는 것은 필드에 접근할 수 있는 methods입니다.
@@ -109,3 +110,4 @@ public class BusinessLogic {
         }
     }
 }
+*/

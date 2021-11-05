@@ -55,6 +55,7 @@ public class Presentation {
 */
 
 // Chapter .2
+/*
 public class Presentation {
     BusinessLogic businessLogic;
 
@@ -68,3 +69,4 @@ public class Presentation {
         System.out.println(" 결과는 " + businessLogic.doBusinessLogic(arg) + " 입니다. ");
     }
 }
+*/

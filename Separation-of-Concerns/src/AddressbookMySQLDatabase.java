@@ -1,5 +1,6 @@
 // 팩토리 패턴
-//Chapter .1
+//Chapter .1,2
+/*
 public class AddressbookMySQLDatabase extends AddressbookDatabase {
     @Override
     public void save(String arg) {
@@ -7,3 +8,4 @@ public class AddressbookMySQLDatabase extends AddressbookDatabase {
         System.out.println("INSERT ADDRESSBOOK VALUES(" + arg + ")");
     }
 }
+*/
