@@ -55,7 +55,8 @@ class App {
 */
 
 // Chapter .2
-// RealImage.java
+// 팩토리 패턴 응용
+/*
 package demo;
 
 interface Image {
@@ -98,13 +99,20 @@ class ProxyImage implements Image {
 
 class App {
    public static void main(final String[] arguments) {
-        Image image1 = new RealImage("HiRes_10MB_Photo1");
-        Image image2 = new RealImage("HiRes_10MB_Photo2");
+        Image image1 = createImage("HiRes_10MB_Photo1"); // new LoggingProxyImage(new ProxyImage("HiRes_10MB_Photo1"));
+        Image image2 = createImage("HiRes_10MB_Photo2"); // new LoggingProxyImage(new ProxyImage("HiRes_10MB_Photo2"));
 
         image1.displayImage(); // loading necessary
         image1.displayImage(); // loading unnecessary
-        image2.displayImage(); // loading necessary
+        image2.displayImage(); // loading necessary 
         image2.displayImage(); // loading unnecessary
         image1.displayImage(); // loading unnecessary
     }
+
+    public static Image createImage(String fileName){
+        //return new RealImage(fileName);
+        //return new ProxyImage(fileName);
+        return new LoggingProxyImage(new ProxyImage(fileName));
+    }
 }
+*/

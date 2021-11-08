@@ -4,5 +4,6 @@
         "Separation-of-Concerns/src",
         "1st-Lab/src",
         "petapplication/src"
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "disabled"
 }
