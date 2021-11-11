@@ -10,8 +10,23 @@ public interface IBanking {
 */
 
 // Chapter .2
+/*
 package demo;
 
 public interface IBanking {
     Integer deposit(Integer money) throws Exception;
 }
+*/
+
+// Chapter .3
+package demo;
+
+public interface IBanking {
+    Integer deposit(Integer money) throws Exception;
+    Integer withdraw(Integer money) throws Exception;
+}
+
+
+
+
+
