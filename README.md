@@ -23,6 +23,28 @@
 ![스크린샷 2021-11-04 오후 4 37 57](https://user-images.githubusercontent.com/59447401/140274980-b1c6e833-1b95-4173-b3bc-21d0bdc5444f.png)
 ![windowsMode](https://user-images.githubusercontent.com/59447401/140464572-1eb686b0-25aa-45df-a483-32f1df7a55fe.png)
 ![demo](https://user-images.githubusercontent.com/59447401/140476095-3dea2669-84b2-4ccc-ae1b-8ad82c007358.png)
+![LoggingProxyImage](https://user-images.githubusercontent.com/59447401/140691497-4c81ef7b-65af-4ada-87f2-64bd76965d48.png)
+![Client](https://user-images.githubusercontent.com/59447401/140709812-98a890ed-39a3-475e-878e-ea76da8d8c3b.png)
+![뱅킹 서비스](https://user-images.githubusercontent.com/59447401/140883893-022e2d77-97da-4ae3-acc7-0731f7742771.png)
+![뱅킹 서비스 서버](https://user-images.githubusercontent.com/59447401/140884831-be0d55e4-e0d3-41bc-b422-1abc5e97562b.png)
+![BankingStub](https://user-images.githubusercontent.com/59447401/141032559-938760e5-5cda-4824-96b3-7ae03f3c731e.png)
+![싱글톤 패턴의 필요성 클라이언트 폴더](https://user-images.githubusercontent.com/59447401/141240067-0788f31d-cbc2-4953-9d62-9bed6c22e9af.png)
+![싱글톤 패턴 서버 폴더](https://user-images.githubusercontent.com/59447401/141240641-a507d150-aa2f-45ad-9d3c-f95f6a041ef1.png)
+![싱글톤패턴 Client 결과화면1](https://user-images.githubusercontent.com/59447401/141243499-2cac5ea3-90b5-4f32-b0cf-7bc95aaf9759.png)
+![싱글톤패턴 Server 결과 화면1](https://user-images.githubusercontent.com/59447401/141243616-54dc9b8a-7f9e-4b93-bde4-63422cffd869.png)
+![싱글톤 패턴 ClientHandler 추가 ](https://user-images.githubusercontent.com/59447401/141244034-dc7091ec-7769-4b95-9fbf-0394f599b278.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
