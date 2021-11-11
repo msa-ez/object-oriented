@@ -19,12 +19,27 @@ public interface IBanking {
 */
 
 // Chapter .3
+/*
 package demo;
 
 public interface IBanking {
     Integer deposit(Integer money) throws Exception;
     Integer withdraw(Integer money) throws Exception;
 }
+*/
+
+
+
+// 싱글톤 패턴
+// Chapter .1
+package demo;
+
+public interface IBanking {
+    Integer deposit(Integer money) throws Exception;
+    Integer withdraw(Integer money) throws Exception;
+}
+
+
 
 
 

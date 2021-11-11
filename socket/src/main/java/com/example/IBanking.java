@@ -9,10 +9,22 @@ public interface IBanking {
 }
 */
 // Chapter .3
+/*
 package com.example;
 
 public interface IBanking {
     Integer deposit(Integer money) throws Exception;
     Integer withdraw(Integer money) throws Exception;
 }
+*/
 
+
+
+// 싱글톤 패탄
+// Chapter .1
+package com.example;
+
+public interface IBanking {
+    Integer deposit(Integer money) throws Exception;
+    Integer withdraw(Integer money) throws Exception;
+}

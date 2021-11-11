@@ -14,6 +14,7 @@ public class DummyBanking implements IBanking{
 
 
 // Chapter .3
+/*
 package demo;
 
 public class DummyBanking implements IBanking{
@@ -28,4 +29,28 @@ public class DummyBanking implements IBanking{
         return null;
     }
 }
+*/
+
+
+
+
+// 싱글톤 패턴
+// Chapter .1
+package demo;
+
+public class DummyBanking implements IBanking{
+    @Override
+    public Integer deposit(Integer money) {
+        return -1;
+    }
+
+    @Override
+    public Integer withdraw(Integer money) throws Exception {
+        // TODO Auto-generated method stub
+        return null;
+    }
+}
+
+
+
 

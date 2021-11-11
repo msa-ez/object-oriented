@@ -42,6 +42,27 @@ public class Client
 
 
 // Chapter .3
+/*
+package demo;
+
+public class Client
+{
+    public static void main( String[] args ) throws Exception
+    {
+        IBanking banking = getBankings();
+        System.out.println("balance:" + banking.deposit(100));
+        System.out.println("balance:" + banking.withdraw(50));
+    }
+    private static IBanking getBankings() {
+        return new BankingStub();
+    }
+}
+*/
+
+
+// 싱글톤 패턴
+// Chapter .1
+// 클라이언트에 한번 접속할 때마다 서버가 두 번 생기는 상황이 발생
 package demo;
 
 public class Client
