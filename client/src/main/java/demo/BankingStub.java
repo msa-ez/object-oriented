@@ -82,7 +82,7 @@ public class BankingStub implements IBanking{
 
 
 // 싱글톤 패턴
-// Chapter .1
+// Chapter .1,2,3,4
 package demo;
 
 import java.io.BufferedReader;

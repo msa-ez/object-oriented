@@ -20,8 +20,8 @@ public interface IBanking {
 
 
 
-// 싱글톤 패탄
-// Chapter .1
+// 싱글톤 패턴
+// Chapter .1,2,3,4
 package com.example;
 
 public interface IBanking {

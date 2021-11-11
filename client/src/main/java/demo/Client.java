@@ -61,7 +61,7 @@ public class Client
 
 
 // 싱글톤 패턴
-// Chapter .1
+// Chapter .1,2,3,4
 // 클라이언트에 한번 접속할 때마다 서버가 두 번 생기는 상황이 발생
 package demo;
 

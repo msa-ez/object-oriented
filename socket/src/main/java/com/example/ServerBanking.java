@@ -14,6 +14,7 @@ public class ServerBanking implements IBanking{
     }
 }
 */
+
 // Chapter .3
 /*
 package com.example;
@@ -39,7 +40,8 @@ public class ServerBanking implements IBanking{
 
 
 // 싱글톤 패턴
-// Chapter .1
+// Chapter .1, 2, 3
+/*
 package com.example;
 
 public class ServerBanking implements IBanking{
@@ -62,3 +64,42 @@ public class ServerBanking implements IBanking{
         return balance;
     }
 }
+*/
+
+
+
+// 싱글톤 패턴
+// Chapter .4
+// ServerBanking을 호출될 때만 접근 가능하게 함과 동시에 접근할 수 있는 methods를 생성
+package com.example;
+
+public class ServerBanking implements IBanking{
+
+    static ServerBanking instance = new ServerBanking();
+
+    public static ServerBanking getInstance() {
+        return instance;
+    }
+
+    public ServerBanking() {
+        System.out.println("=== bank is created ===");
+    }
+    
+    int balance = 0;
+
+    @Override
+    public Integer deposit(Integer money) {
+        balance = balance + money;
+        return balance;
+    }
+
+    @Override
+    public Integer withdraw(Integer money) throws Exception {
+        balance = balance - money;
+        return balance;
+    }
+}
+
+
+
+

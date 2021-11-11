@@ -35,7 +35,7 @@ public class DummyBanking implements IBanking{
 
 
 // 싱글톤 패턴
-// Chapter .1
+// Chapter .1,2,3,4
 package demo;
 
 public class DummyBanking implements IBanking{

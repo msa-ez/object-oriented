@@ -289,11 +289,9 @@ public class Server
 
 
 // Chapter .3
+/*
 package com.example;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -311,38 +309,35 @@ public class Server
 
             final Socket socket = server.accept();
 
-            new Thread() {
-                @Override
-                public void run() {
-                    System.out.println("A Client connected");
-                    
-                    try {
-                        BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-                        PrintWriter pw;
-
-                        pw = new PrintWriter(socket.getOutputStream());
-
-                        String depositCommend = reader.readLine();
-                        String commandAndParam[] = depositCommend.split(":");
-
-                        int balance = 0;
-                        if("deposit".equals(commandAndParam[0])) {
-                            balance = banking.deposit(Integer.parseInt(commandAndParam[1]));
-                        } else if("withdraw".equals(commandAndParam[0])) {
-                            balance = banking.withdraw(Integer.parseInt(commandAndParam[1]));
-                        }
-
-                        pw.println("balance:" + balance);
-                        pw.flush();
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }
-            }.start();
+            // ClientHandler.java에서 분리시킨 socketm banking 클래스 사용 방법
+            new ClientHandler(socket, banking).start();
         }
     }
 }
+*/
 
+// Chapter .4
+// ServerBanking을 하나만 존재하게 하기 위한 코드
+package com.example;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server 
+{
+    public static void main( String[] args ) throws Exception
+    {
+        ServerSocket server = new ServerSocket(9090); // portNumber 9090
+
+        System.out.println( "Waiting for client" );
+
+        while(true) {
+            final Socket socket = server.accept();
+
+            new ClientHandler(socket).start();
+        }
+    }
+}
 
 
 
