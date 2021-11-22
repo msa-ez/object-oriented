@@ -35,6 +35,15 @@
 ![싱글톤 패턴 ClientHandler 추가 ](https://user-images.githubusercontent.com/59447401/141244034-dc7091ec-7769-4b95-9fbf-0394f599b278.png)
 ![싱글톤 패턴 Chapter  4 실행화면](https://user-images.githubusercontent.com/59447401/141261310-aecaeaf1-b5e1-491b-a39c-5949ba681203.png)
 ![싱글톤 패턴 Chapter  4 클라이언트 결과 화면](https://user-images.githubusercontent.com/59447401/141261479-bf5bc5a0-5741-49bb-9b8c-c35c40d42d1f.png)
+![TransactionProxyBanking 파일 추가](https://user-images.githubusercontent.com/59447401/142804837-ecd6257b-66fc-48a4-9747-b5a27d538da6.png)
+![뱅킹 서버 프록시 패턴 Server 결과 화면](https://user-images.githubusercontent.com/59447401/142805728-4ac9821e-9df4-4178-99db-dbf18a9a672e.png)
+![뱅킹 서버 프록시 패턴 Client 결과 화면](https://user-images.githubusercontent.com/59447401/142805737-daca123c-1ddf-425a-92fa-5e7dfd1e28e2.png)
+![web 추가](https://user-images.githubusercontent.com/59447401/142819171-92778804-efe5-4c77-b5df-3f0ad2696a07.png)
+![스프링 부트 기본 설정](https://user-images.githubusercontent.com/59447401/142819205-c68cea70-32f9-48a6-9275-45e738b20025.png)
+![code에서 스프링 부트 실행](https://user-images.githubusercontent.com/59447401/142819835-18614269-eb51-41e9-8389-33e801000fa4.png)
+![스프링 부트 런 실행 화면](https://user-images.githubusercontent.com/59447401/142819848-81700181-9946-4e21-8f30-3d86d307699d.png)
+![스프링 부트localhost8080 실행 화면](https://user-images.githubusercontent.com/59447401/142820146-64bbc8b9-76c5-4aed-9976-c25ca86c628e.png)
+![bankingApplication 파일](https://user-images.githubusercontent.com/59447401/142824304-8a67d839-c8ec-4d9c-a37d-0c58c12083ac.png)
 
 
 
