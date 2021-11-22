@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BankingApplication",
+            "request": "launch",
+            "mainClass": "com.example.banking.BankingApplication"
+        },
+        {
+            "type": "java",
             "name": "Launch Client",
             "request": "launch",
             "mainClass": "demo.Client"

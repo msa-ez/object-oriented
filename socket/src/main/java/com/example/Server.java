@@ -318,6 +318,7 @@ public class Server
 
 // Chapter .4
 // ServerBanking을 하나만 존재하게 하기 위한 코드
+/*
 package com.example;
 
 import java.net.ServerSocket;
@@ -338,7 +339,33 @@ public class Server
         }
     }
 }
+*/
 
+
+// 뱅킹 서버 프록시 패턴
+// Chapter .1, 2
+/*
+package com.example;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server 
+{
+    public static void main( String[] args ) throws Exception
+    {
+        ServerSocket server = new ServerSocket(9090); // portNumber 9090
+
+        System.out.println( "Waiting for client" );
+
+        while(true) {
+            final Socket socket = server.accept();
+
+            new ClientHandler(socket).start();
+        }
+    }
+}
+*/
 
 
 

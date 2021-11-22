@@ -22,9 +22,23 @@ public interface IBanking {
 
 // 싱글톤 패턴
 // Chapter .1,2,3,4
+/*
 package com.example;
 
 public interface IBanking {
     Integer deposit(Integer money) throws Exception;
     Integer withdraw(Integer money) throws Exception;
 }
+*/
+
+
+// 뱅킹 서버 프록시 패턴
+// Chapter .1, 2
+/*
+package com.example;
+
+public interface IBanking {
+    Integer deposit(Integer money) throws Exception;
+    Integer withdraw(Integer money) throws Exception;
+}
+*/
