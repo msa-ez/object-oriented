@@ -41,8 +41,9 @@ public class Dog extends Animal{
 
 
 // Interface Class
-// Chapter .2
+// Chapter .2, 3
 // Human과 마찬가지로 implements를 추가해줍니다.
+/*
 package com.example;
 
 public class Dog extends Animal implements Runnable{
@@ -56,3 +57,37 @@ public class Dog extends Animal implements Runnable{
         System.out.println("Dog Run!!!");
     }
 }
+*/
+
+
+
+// Lambda Expression and stream
+// Chapter .1
+package com.example;
+
+public class Dog extends Animal implements Runnable{
+    @Override
+    public void speak() {
+        System.out.println("멍멍");
+    }
+
+    @Override
+    public void run() {
+        System.out.println("Dog Run!!!");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

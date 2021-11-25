@@ -439,6 +439,7 @@ public class App
 
 // Chapter .2
 // Human에 새롭게 추가된 성질인 달려봐를 사용합니다.
+/*
 package com.example.application;
 
 import com.example.Animal;
@@ -493,9 +494,100 @@ public class App
         }
     }
 }
+*/
 
 
 
+
+
+// Chapter .3
+/*
+package com.example.application;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Runnable logic = new Runnable() {
+            int i=0;
+
+            public void run(){
+                try {
+                    Thread.sleep(50);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("do something.." + (i++));
+            }
+        };
+
+        System.out.println("순차실행 sequential start ----");
+        // 순차실행 : 10번이 끝난 후 parallel end 출력
+        for(int i=0; i<10; i++) logic.run();
+        System.out.println("순차실행 parallel end ----");
+
+        System.out.println("병렬실행 sequential start ----");
+        //병렬실행 : parallel end 출력후 숫자 증가
+        for(int i=0; i<10; i++) new Thread(logic).start();
+        System.out.println("병렬실행 parallel end ----");
+    }
+}
+*/
+
+
+
+// Lambda Expression and stream
+// Chapter .1
+package com.example.application;
+
+import com.example.Animal;
+import com.example.Dog;
+import com.example.FeedListener;
+import com.example.Human;
+import com.example.Listener;
+import com.example.Robot;
+import com.example.Talkable;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Animal animal = new Dog();
+        animal.addListener( (energy)->{
+            if( energy > 15){
+                System.out.println("don't feed too much!");
+            }
+        });
+
+        animal.eat();
+        animal.speak();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        // animal.setEnergy(5);
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.speak();
+        animal.eat();
+
+        if(animal instanceof Talkable){
+            System.out.println(((Talkable) animal).talkTo("Are you full?"));
+        }
+
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+
+        if(animal instanceof Runnable){
+            ((Runnable) animal).run();
+        }
+    }
+}
 
 
 
