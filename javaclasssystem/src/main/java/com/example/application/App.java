@@ -245,7 +245,8 @@ public class App
 
 
 // 접근자와 접근권한
-// Chapter .1
+// Chapter .1, 2
+/*
 package com.example;
 
 public class App 
@@ -282,10 +283,216 @@ public class App
         animal.eat();
     }
 }
+*/
+
+
+// Chapter .3
+// Animal에 선언된 protected는 같은 패키지 내에서는 가져다 사용이 가능합니다.
+/*
+package com.example;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Animal animal = new Human();
+        animal.addListener(new Listener(){
+            @Override
+            public void energyChanged(int energy) {
+                if( energy > 10){
+                    System.out.println("don't feed too much!");
+                }
+            }
+        });
+        animal.addListener(new FeedListener(2));
+
+        animal.eat();
+        animal.speak();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.setEnergy(5);
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.speak();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+    }
+}
+*/
 
 
 
+// Chapter .4
+// application이라는 패키지로 App.java를 이동했기 때문에 더는 Animal.java에 선언된 protected인 setEnergy를 사용할 수 없게 되었습니다.
+// 패키지가 다르기 때문에 import 하여 다른 것들도 가져옵니다.
+/*
+package com.example.application;
 
+import com.example.Animal;
+import com.example.FeedListener;
+import com.example.Human;
+import com.example.Listener;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Animal animal = new Human();
+        animal.addListener(new Listener(){
+            @Override
+            public void energyChanged(int energy) {
+                if( energy > 10){
+                    System.out.println("don't feed too much!");
+                }
+            }
+        });
+        animal.addListener(new FeedListener(2));
+
+        animal.eat();
+        animal.speak();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        // animal.setEnergy(5);
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.speak();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+    }
+}
+*/
+
+
+
+// Interface Class
+// Chapter .1
+/*
+package com.example.application;
+
+import com.example.Animal;
+import com.example.Dog;
+import com.example.FeedListener;
+import com.example.Human;
+import com.example.Listener;
+import com.example.Robot;
+import com.example.Talkable;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Animal animal = new Human();
+        animal.addListener(new Listener(){
+            @Override
+            public void energyChanged(int energy) {
+                if( energy > 10){
+                    System.out.println("don't feed too much!");
+                }
+            }
+        });
+        animal.addListener(new FeedListener(2));
+
+        animal.eat();
+        animal.speak();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        // animal.setEnergy(5);
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.speak();
+        animal.eat();
+
+        if(animal instanceof Talkable){
+            System.out.println(((Talkable) animal).talkTo("Are you full?"));
+        }
+
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+    }
+}
+*/
+
+
+
+// Chapter .2
+// Human에 새롭게 추가된 성질인 달려봐를 사용합니다.
+package com.example.application;
+
+import com.example.Animal;
+import com.example.Dog;
+import com.example.FeedListener;
+import com.example.Human;
+import com.example.Listener;
+import com.example.Robot;
+import com.example.Talkable;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Animal animal = new Dog();
+        animal.addListener(new Listener(){
+            @Override
+            public void energyChanged(int energy) {
+                if( energy > 10){
+                    System.out.println("don't feed too much!");
+                }
+            }
+        });
+        animal.addListener(new FeedListener(2));
+
+        animal.eat();
+        animal.speak();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        // animal.setEnergy(5);
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.speak();
+        animal.eat();
+
+        if(animal instanceof Talkable){
+            System.out.println(((Talkable) animal).talkTo("Are you full?"));
+        }
+
+        animal.eat();
+        animal.eat();
+        animal.eat();
+        animal.eat();
+
+        if(animal instanceof Runnable){
+            ((Runnable) animal).run();
+        }
+    }
+}
 
 
 

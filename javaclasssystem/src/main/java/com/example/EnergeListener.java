@@ -19,7 +19,8 @@ public class EnergeListener extends Listener {
 
 
 // 접근자와 접근권한
-// Chapter .1
+// Chapter .1, 2, 3, 4
+/*
 package com.example;
 
 public class EnergeListener extends Listener {
@@ -31,8 +32,23 @@ public class EnergeListener extends Listener {
         }
     }
 }
+*/
 
 
+
+// Interface Class
+// Chapter .1, 2
+package com.example;
+
+public class EnergeListener extends Listener {
+
+    @Override
+    public void energyChanged(int energy) {
+        if(energy > 10) {
+            System.out.println("don't feed too much!");
+        }
+    }
+}
 
 
 

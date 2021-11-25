@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.example.application.App",
+            "projectName": "javaclasssystem"
+        },
+        {
+            "type": "java",
             "name": "Launch BankingApplication",
             "request": "launch",
             "mainClass": "com.example.banking.BankingApplication"

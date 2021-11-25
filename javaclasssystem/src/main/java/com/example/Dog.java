@@ -14,12 +14,45 @@ public class Dog extends Animal{
 
 
 // 접근자와 접근권한
-// Chapter .1
+// Chapter .1, 2, 3, 4
+/*
 package com.example;
 
 public class Dog extends Animal{
     @Override
     public void speak() {
         System.out.println("멍멍");
+    }
+}
+*/
+
+// Interface Class
+// Chapter .1
+/*
+package com.example;
+
+public class Dog extends Animal{
+    @Override
+    public void speak() {
+        System.out.println("멍멍");
+    }
+}
+*/
+
+
+// Interface Class
+// Chapter .2
+// Human과 마찬가지로 implements를 추가해줍니다.
+package com.example;
+
+public class Dog extends Animal implements Runnable{
+    @Override
+    public void speak() {
+        System.out.println("멍멍");
+    }
+
+    @Override
+    public void run() {
+        System.out.println("Dog Run!!!");
     }
 }

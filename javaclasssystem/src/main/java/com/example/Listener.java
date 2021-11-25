@@ -27,8 +27,8 @@ public class Listener {
 
 
 // 접근자와 접근권한
-// Chapter .1
-
+// Chapter .1, 2, 3, 4
+/*
 package com.example;
 
 public class Listener {
@@ -36,9 +36,18 @@ public class Listener {
 
     }
 }
+*/
 
 
+// Interface Class
+// Chapter .1, 2
+package com.example;
 
+public class Listener {
+    public void energyChanged(int energy) {
+
+    }
+}
 
 
 

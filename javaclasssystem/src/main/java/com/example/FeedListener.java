@@ -68,7 +68,33 @@ public class FeedListener extends Listener {
 
 
 // 접근자와 접근권한
-// Chapter .1
+// Chapter .1, 2, 3, 4
+/*
+package com.example;
+
+public class FeedListener extends Listener {
+
+    int feedCriteria = 0;
+
+
+    public FeedListener(int criteria) {
+        this.feedCriteria = criteria;
+    }
+
+    @Override
+    public void energyChanged(int energy) {
+        if(energy < feedCriteria) {
+            System.out.println("please feed some food.");
+        }
+    }
+}
+*/
+
+
+
+
+// Interface Class
+// Chapter .1, 2
 package com.example;
 
 public class FeedListener extends Listener {
