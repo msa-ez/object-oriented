@@ -13,21 +13,5 @@ public class Robot implements Talkable{
 
 
 
-// Lambda Expression and stream
-// Chapter .1
-package com.example;
-
-public class Robot implements Talkable{
-    public String talkTo(String ask) {
-        return "Hi, I'm robot. My answer for "+ ask + "...";
-    }
-}
-
-
-
-
-
-
-
 
 

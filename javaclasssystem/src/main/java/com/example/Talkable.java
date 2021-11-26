@@ -13,17 +13,5 @@ public interface Talkable {
 
 
 
-// Lambda Expression and stream
-// Chapter .1
-package com.example;
-
-public interface Talkable {
-    String talkTo(String ask);
-}
-
-
-
-
-
 
  

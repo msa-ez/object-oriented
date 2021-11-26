@@ -53,18 +53,6 @@ public class Listener {
 
 
 
-// Lambda Expression and stream
-// Chapter .1
-// FunctionalInterface Lambda식 표현 준비 완료
-package com.example;
-
-// @FunctionalInterface
-public interface Listener {
-    void energyChanged(int energy);
-}
-
-
-
 
 
 

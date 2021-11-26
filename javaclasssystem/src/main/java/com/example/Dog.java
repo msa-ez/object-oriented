@@ -61,26 +61,6 @@ public class Dog extends Animal implements Runnable{
 
 
 
-// Lambda Expression and stream
-// Chapter .1
-package com.example;
-
-public class Dog extends Animal implements Runnable{
-    @Override
-    public void speak() {
-        System.out.println("멍멍");
-    }
-
-    @Override
-    public void run() {
-        System.out.println("Dog Run!!!");
-    }
-}
-
-
-
-
-
 
 
 

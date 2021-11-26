@@ -122,32 +122,6 @@ public class FeedListener extends Listener {
 
 
 
-// Lambda Expression and stream
-// Chapter .1
-package com.example;
-
-public class FeedListener extends Listener {
-
-    int feedCriteria = 0;
-
-
-    public FeedListener(int criteria) {
-        this.feedCriteria = criteria;
-    }
-
-    @Override
-    public void energyChanged(int energy) {
-        if(energy < feedCriteria) {
-            System.out.println("please feed some food.");
-        }
-    }
-}
-
-
-
-
-
-
 
 
 

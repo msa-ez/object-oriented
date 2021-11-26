@@ -139,40 +139,6 @@ public class Human extends Animal implements Talkable, Serializable, Runnable{
 
 
 
-// Lambda Expression and stream
-// Chapter .1
-package com.example;
-
-import java.io.Serializable;
-
-public class Human extends Animal implements Talkable, Serializable, Runnable{
-    @Override
-    public void speak() {
-
-        if(getEnergy() < 5){
-            System.out.println("I'm hungry");
-        } else
-            System.out.println("Hi");
-    }
-
-    @Override
-    public String talkTo(String ask) {
-        System.out.println("you are asked as follows: "+ ask);
-
-        //answer must be obtained by UI
-
-        return "human answer";
-    }
-
-    @Override
-    public void run() {
-        System.out.println("I'm running!!!");
-    }
-}
-
-
-
-
 
 
 

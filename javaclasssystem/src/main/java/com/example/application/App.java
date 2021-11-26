@@ -538,6 +538,7 @@ public class App
 
 // Lambda Expression and stream
 // Chapter .1
+/*
 package com.example.application;
 
 import com.example.Animal;
@@ -573,6 +574,8 @@ public class App
         animal.eat();
         animal.speak();
         animal.eat();
+        animal.eat();
+        animal.eat();
 
         if(animal instanceof Talkable){
             System.out.println(((Talkable) animal).talkTo("Are you full?"));
@@ -588,7 +591,190 @@ public class App
         }
     }
 }
+*/
 
+// Chapter .2
+// 일반적인 자바 7의 값을 방문하던 방식입니다.
+/*
+package com.example.application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.example.Animal;
+import com.example.Dog;
+import com.example.FeedListener;
+import com.example.Human;
+import com.example.Listener;
+import com.example.Robot;
+import com.example.Talkable;
+
+public class App 
+{
+    public static void main( String[] args ) 
+    {
+        List<Integer> list = new ArrayList<>();
+        list.add(5);
+        list.add(4);
+        list.add(3);
+        list.add(2);
+        list.add(1);
+
+        for(int i=0; i<list.size(); i++) {
+            System.out.println(list.get(i));
+        }
+
+        list.forEach((x)->System.out.println(x));
+    }
+}
+*/
+
+
+// Chapter .3
+// 기존의 코드를 방문하는 방식을 사람이 알아보기 쉽게 함수형 방식으로 변경
+// Consumer라는 Functional Interface가 들어갔기 때문에 동작 가능 합니다.
+/*
+package com.example.application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class App 
+{
+    public static void main( String[] args ) 
+    {
+        List<Integer> list = new ArrayList<>();
+        list.add(5);
+        list.add(4);
+        list.add(3);
+        list.add(2);
+        list.add(1);
+
+        list.forEach((x)->System.out.println(x));
+    }
+}
+*/
+
+
+
+
+// Chapter .4
+// 위 코드 보다 더 간결하게
+/*
+package com.example.application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class App 
+{
+    public static void main( String[] args ) 
+    {
+        List<Integer> list = new ArrayList<>();
+        list.add(5);
+        list.add(4);
+        list.add(3);
+        list.add(2);
+        list.add(1);
+
+        list.forEach(System.out::println);
+    }
+}
+*/
+
+
+
+// Chapter .5
+// list라는 것을 stream으로 변경해서 데이타 처리를 하기위한 형식으로 변경 (Method Chaining)
+// 메서드가 객체를 반환하게 되면 메서드의 반환 값인 객체를 통해 또 다른 함수를 호출할 수 있습니다.이러한 프로그래밍 패턴을 메서드 체이닝(Method Chaining)이라 부릅니다.
+/*
+package com.example.application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class App 
+{
+    public static void main( String[] args ) 
+    {
+        List<Integer> list = new ArrayList<>();
+        list.add(5);
+        list.add(4);
+        list.add(3);
+        list.add(2);
+        list.add(1);
+
+        list.stream()
+            .filter(x -> x>3) // filter를 거친 값은 4, 5만 남음
+            .map(x -> x*x) // 남은 4, 5의 값을 제곱해줍니다.
+            .sorted() // 내림차순으로 정리해 줍니다.
+            .forEach(System.out::println); // 정리된 값을 화면에 출력해 줍니다.
+    }
+}
+*/
+
+
+
+
+
+
+// Chapter .6
+// Chapter .5의 구현 방식이 아닌 구 버전인 java7 버전의 구현 방식으로 동일한 코드 구현
+// Chapter .5와 비교했을 때 라인수와 코드 해독의 복잡도의 차이를 확인하는 Chapter입니다.
+/*
+package com.example.application;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+public class App 
+{
+    public static void main( String[] args ) 
+    {
+        List<Integer> list = new ArrayList<>();
+        list.add(5);
+        list.add(4);
+        list.add(3);
+        list.add(2);
+        list.add(1);
+
+        // 요즘 방식 Lambda expression --> lines
+        list.stream()
+            .filter(x -> x>3)
+            .map(x -> x*x)
+            .sorted()
+            .forEach(x -> System.out.println("Lambda Expression : " + x));
+            
+
+        // 옛날 방식 Java 7 procedural expression --> many lines !
+        List<Integer> fillteredList = new ArrayList<>();
+        for(int i=0; i<list.size(); i++){
+            if(list.get(i) > 3)
+                fillteredList.add(list.get(i));
+        }
+
+        List<Integer> squaredList = new ArrayList<>();
+        for(int i=0; i<fillteredList.size(); i++){
+            squaredList.add(fillteredList.get(i) * fillteredList.get(i));
+        }
+
+        squaredList.sort(new Comparator(){
+            @Override
+            public int compare(Object o1, Object o2) {
+                Integer i1 = (Integer)o1;
+                Integer i2 = (Integer)o2;
+
+                return i1 - i2;
+            }
+        });
+
+        for(int i=0; i<squaredList.size(); i++){
+            System.out.println("java 7 : " + squaredList.get(i));
+        }
+    }
+}
+*/
 
 
 
