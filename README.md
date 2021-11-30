@@ -71,6 +71,13 @@
 ![Lambda Chapter  1  결과](https://user-images.githubusercontent.com/59447401/143512617-5b618bc1-ae6a-4440-ab5a-7c8bf48844c6.png)
 ![Lambda Chapter  5 결과](https://user-images.githubusercontent.com/59447401/143515114-ecbd6ad1-2fab-4e59-b68a-4319563f8c3b.png)
 ![Lambda Chapter  6 결과](https://user-images.githubusercontent.com/59447401/143517964-8a8a8dbb-812c-45b1-8a69-75ac834ae1d2.png)
+![중간 점검 폴더 구성](https://user-images.githubusercontent.com/59447401/143977295-b4fc1fd2-21aa-43ab-accb-6c4d875f4954.png)
+![중간 점검 스프링 부트 설정](https://user-images.githubusercontent.com/59447401/143977741-4001b241-5017-4aac-91d4-bd45ad0f52d0.png)
+![중간 점검 pom](https://user-images.githubusercontent.com/59447401/143978129-202d6fa6-308a-43d8-9a8c-7e6ecc510509.png)
+![중간 점검 pom2](https://user-images.githubusercontent.com/59447401/143978374-e9429ab6-61ae-47d5-809f-b5b4465285c6.png)
+![PetshopApplication 최초 로딩 페이지](https://user-images.githubusercontent.com/59447401/143990794-72480a20-f9f3-43f2-b4b8-531a19304bbd.png)
+![PetshopApplication 최초 페이지 리턴 화면](https://user-images.githubusercontent.com/59447401/143993797-5b27ccdc-0a0d-4967-8f77-0a7bd5488321.png)
+![기본적인 Pet의 규칙](https://user-images.githubusercontent.com/59447401/143998108-c651dbba-dc4c-454b-980d-2cc55d4050c5.png)
 
 
 
