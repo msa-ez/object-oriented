@@ -25,6 +25,7 @@ public class PetshopApplication {
 	public static void main(String[] args) {
 		pets.put(Dog.class.getSimpleName().toLowerCase(), new Dog());
 		pets.put(Cat.class.getSimpleName().toLowerCase(), new Cat());
+
 		SpringApplication.run(PetshopApplication.class, args);
 	}
 
@@ -50,24 +51,25 @@ public class PetshopApplication {
 		result.append("<h1>" + petId + "</h1>");
 		result.append("<br>에너지 : " + thePet.getEnergy());
 
-		result.append("<br>1. <a href='" + petId + "/feed'>먹이주기</a>");
-		result.append("<br>2. <a href='" + petId + "/sleep'>재우기</a>");
-		result.append("<br>3. <a href='" + petId + "/cart'>입양하기</a>");
+		result.append("<li><a href='" + petId + "/feed'>먹이주기</a>");
+		result.append("<li><a href='" + petId + "/sleep'>재우기</a>");
+		result.append("<li><a href='" + petId + "/cart'>입양하기</a>");
 
 		if(thePet instanceof Groomable) {
-			result.append("<br>4. <a href='" + petId + "/groom'>그루밍하기</a>");
+			result.append("<li><a href='" + petId + "/groom'>그루밍하기</a>");
 		}
 		return result.toString();
 	}
 
 	@Autowired
-	Cart cart;
+	ICart cart;
 
 	@RequestMapping(method = RequestMethod.GET, path = "{petId}/cart")
 	public String addToCart(@PathVariable(value = "petId") String petId) throws Exception {
 		Pet thePet = pets.get(petId);
 
-		cart.add(thePet);
+		cart.add(thePet); // Separation of Concerns. Dependency Inversion Principle. // Ubiqutous Language.
+
 		return "성공적으로 입양했습니다.<br>" + cart;
 	}
 

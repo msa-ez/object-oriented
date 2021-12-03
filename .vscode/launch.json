@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch H2FileDatabaseExample",
+            "request": "launch",
+            "mainClass": "com.h2.examples.H2FileDatabaseExample",
+            "projectName": "petshop"
+        },
+        {
+            "type": "java",
             "name": "Launch PetshopApplication",
             "request": "launch",
             "mainClass": "com.example.petshop.PetshopApplication",

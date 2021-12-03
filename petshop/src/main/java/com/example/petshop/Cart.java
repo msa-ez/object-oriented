@@ -10,6 +10,10 @@ import org.springframework.stereotype.Component;
 public class Cart implements ICart {
     List<Pet> pets = new ArrayList<Pet>();
 
+    public Cart() {
+        
+    }
+
     @Override
     public Pet add(Pet pet) throws Exception {
         pets.add(pet);
