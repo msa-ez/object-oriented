@@ -1,15 +1,16 @@
+//Repository Pattern 의 직접 구현 Chpater .1
 package com.example.petshop;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.concurrent.ExecutionException;
 
-import com.h2.examples.H2FileDatabaseExample;
+import com.example.h2.H2FileDatabaseExample;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class DBCart implements ICart {
 
     @Override
@@ -34,6 +35,8 @@ public class DBCart implements ICart {
             e.printStackTrace();
         } finally {
             connection.close();
+
+            return thePet;
         }
         
     }
@@ -51,6 +54,7 @@ public class DBCart implements ICart {
         Connection connection = H2FileDatabaseExample.getDBConnection();
         Statement stmt = null;
         try {
+            stmt = connection.createStatement();
             ResultSet rs = stmt.executeQuery("select * from PET");
             while (rs.next()) {
                 buffer.append("<li> "+rs.getString("name"));

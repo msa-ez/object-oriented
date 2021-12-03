@@ -1,3 +1,4 @@
+//중간점검 Chpater .1, Repository Pattern 의 직접 구현
 package com.example.petshop;
 
 import java.util.HashMap;
@@ -49,7 +50,7 @@ public class PetshopApplication {
 		Pet thePet = pets.get(petId);
 
 		result.append("<h1>" + petId + "</h1>");
-		result.append("<br>에너지 : " + thePet.getEnergy());
+		result.append("<br>에너지 : " + thePet.getEnergy());                      
 
 		result.append("<li><a href='" + petId + "/feed'>먹이주기</a>");
 		result.append("<li><a href='" + petId + "/sleep'>재우기</a>");

@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Launch H2FileDatabaseExample",
             "request": "launch",
+            "mainClass": "com.example.h2.H2FileDatabaseExample",
+            "projectName": "petshop"
+        },
+        {
+            "type": "java",
+            "name": "Launch H2FileDatabaseExample",
+            "request": "launch",
+            "mainClass": "com.examples.h2.H2FileDatabaseExample",
+            "projectName": "petshop"
+        },
+        {
+            "type": "java",
+            "name": "Launch H2FileDatabaseExample",
+            "request": "launch",
+            "mainClass": "com.example.h2.examples.H2FileDatabaseExample",
+            "projectName": "petshop"
+        },
+        {
+            "type": "java",
+            "name": "Launch H2FileDatabaseExample",
+            "request": "launch",
             "mainClass": "com.h2.examples.H2FileDatabaseExample",
             "projectName": "petshop"
         },

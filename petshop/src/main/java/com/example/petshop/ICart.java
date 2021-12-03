@@ -1,3 +1,4 @@
+//중간점검 Chpater .1
 package com.example.petshop;
 
 public interface ICart {
