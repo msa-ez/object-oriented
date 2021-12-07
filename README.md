@@ -78,6 +78,17 @@
 ![PetshopApplication 최초 로딩 페이지](https://user-images.githubusercontent.com/59447401/143990794-72480a20-f9f3-43f2-b4b8-531a19304bbd.png)
 ![PetshopApplication 최초 페이지 리턴 화면](https://user-images.githubusercontent.com/59447401/143993797-5b27ccdc-0a0d-4967-8f77-0a7bd5488321.png)
 ![기본적인 Pet의 규칙](https://user-images.githubusercontent.com/59447401/143998108-c651dbba-dc4c-454b-980d-2cc55d4050c5.png)
+![실글톤 패턴 설명](https://user-images.githubusercontent.com/59447401/144173410-05a3be75-f905-430f-9dee-2dba1320194f.png)
+![9주차 디비 추가](https://user-images.githubusercontent.com/59447401/144378051-c6d244d8-1c38-4551-9c97-57c2dda0afce.png)
+![9주차 디비 추가 dependencv](https://user-images.githubusercontent.com/59447401/144378247-4b150058-4dbb-4122-b3a5-4010fc6f617d.png)
+![9주차 디비 추가 EXPLORE 클릭](https://user-images.githubusercontent.com/59447401/144378520-19f9774e-67c8-4d4c-a1a8-41c46f62c325.png)
+![9주차 디비 추가 EXPLORE 클릭 후 붙여넣기](https://user-images.githubusercontent.com/59447401/144378747-8c0fe919-d609-4c13-b02e-81b7adeed949.png)
+![스크린샷 2021-12-02 오후 4 50 46](https://user-images.githubusercontent.com/59447401/144380129-5dd82559-73d8-48dd-b26d-be421e3ff13c.png)
+![DB 생성 성공](https://user-images.githubusercontent.com/59447401/144529253-02015184-4844-411e-ba57-c333f5f7f38d.png)
+![DB 생성 오류](https://user-images.githubusercontent.com/59447401/144529354-5af5bd61-bf0e-4a48-8174-639573280a86.png)
+![JPA dependency 추가](https://user-images.githubusercontent.com/59447401/144797593-27e4490a-615b-4467-9abc-825c1df03d5f.png)
+![JAP ADD Dependencies](https://user-images.githubusercontent.com/59447401/144797977-17a7610d-f600-49ae-8db6-22e78edaa23c.png)
+![JPA 결과 화면](https://user-images.githubusercontent.com/59447401/144813290-94d14b3f-ee90-4b4e-b9ed-87ba7a1ac4c2.png)
 
 
 
