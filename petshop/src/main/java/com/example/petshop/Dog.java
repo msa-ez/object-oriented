@@ -18,6 +18,7 @@ public class Dog extends Pet implements Runnable {
 
 // JPA 를 기반한 Repository pattern 구현체 자동생성
 // Chpater .1
+// restful api 란 Chapter .1, Chapter .2, Chapter .3
 package com.example.petshop;
 
 import javax.persistence.DiscriminatorValue;

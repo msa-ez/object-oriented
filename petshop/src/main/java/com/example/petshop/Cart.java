@@ -79,13 +79,11 @@ public class Cart implements PetRepository {
 
     @Override
     public List<Pet> findAll() throws Exception {
-        // TODO Auto-generated method stub
         return pets;
     }
 
     @Override
     public Pet upadte(Pet pet) throws Exception {
-        // TODO Auto-generated method stub
         return null;
     }
 }
