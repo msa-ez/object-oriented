@@ -1,4 +1,6 @@
-//중간점검 Chpater .1, Repository Pattern 의 직접 구현
+// 중간점검 Chpater .1
+// Repository Pattern 의 직접 구현 Chpater .1, Chpater .2
+/*
 package com.example.petshop;
 
 public class Dog extends Pet implements Runnable {
@@ -10,5 +12,33 @@ public class Dog extends Pet implements Runnable {
     @Override
     public void run() {
         System.out.println("Dog run!");
+    }
+}
+*/
+
+// JPA 를 기반한 Repository pattern 구현체 자동생성
+// Chpater .1
+package com.example.petshop;
+
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+
+@Entity
+@DiscriminatorValue("dog")
+public class Dog extends Pet implements Runnable {
+    @Override
+    public void speak() {
+        System.out.println("멍멍");
+    }
+
+    @Override
+    public void run() {
+        System.out.println("Dog run!");
+    }
+
+    @Override
+    public void eat() {
+        super.eat();
+        super.eat();
     }
 }

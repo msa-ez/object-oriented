@@ -3,7 +3,7 @@
         "car-sim/sim0/src",
         "Separation-of-Concerns/src",
         "1st-Lab/src",
-        "petapplication/src"
+        "PetshopApplication/src"
     ],
     "java.configuration.updateBuildConfiguration": "disabled"
 }
