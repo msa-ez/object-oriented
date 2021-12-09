@@ -89,7 +89,15 @@
 ![JPA dependency 추가](https://user-images.githubusercontent.com/59447401/144797593-27e4490a-615b-4467-9abc-825c1df03d5f.png)
 ![JAP ADD Dependencies](https://user-images.githubusercontent.com/59447401/144797977-17a7610d-f600-49ae-8db6-22e78edaa23c.png)
 ![JPA 결과 화면](https://user-images.githubusercontent.com/59447401/144813290-94d14b3f-ee90-4b4e-b9ed-87ba7a1ac4c2.png)
-
+![restful api Chapter 1 결과 화면](https://user-images.githubusercontent.com/59447401/144976613-ed33872c-7d0c-464c-a22a-8acbd7f8a301.png)
+![restful Chapter  2 결과화면](https://user-images.githubusercontent.com/59447401/144980971-11418fcd-fa27-460a-ad63-e5ef045c8aed.png)
+![CatRepository 추가](https://user-images.githubusercontent.com/59447401/144981700-35f86d4e-522f-4724-9dee-106d7495b318.png)
+![CatRepository 결과 화면](https://user-images.githubusercontent.com/59447401/144981816-ad937832-8e22-4e93-bdcf-698ddc58de1d.png)
+![10주 차 Chapter  4 결과화면](https://user-images.githubusercontent.com/59447401/145133409-ad7c0a8a-07bc-4c9d-b3ba-cf4c9a8cad6b.png)
+![10주 ![10주 차 Chapter  4 dog1에 먹이 주기 결과 화면](https://user-images.githubusercontent.com/59447401/145134773-b431dcba-0041-4c89-a5a2-d54b823d36e8.png)
+차 Chapter  4 추가된 1번 멍멍이의 에너지가 증가한 것을 확인할 수 있습니다](https://user-images.githubusercontent.com/59447401/145134525-90f7fe43-925f-4e25-86b5-095d0b2f3253.png)
+![10주 차 Chapter  4 cat 등록 결과 화면](https://user-images.githubusercontent.com/59447401/145137533-3d2a15f3-8b21-4c7c-a7c2-ab2ebc26961e.png)
+![10주 차 Chapter  4 결과 화면 그루밍](https://user-images.githubusercontent.com/59447401/145349363-7e7e8a16-3cf5-48ec-9758-eb5c18471b23.png)
 
 
 
