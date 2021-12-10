@@ -98,6 +98,10 @@
 차 Chapter  4 추가된 1번 멍멍이의 에너지가 증가한 것을 확인할 수 있습니다](https://user-images.githubusercontent.com/59447401/145134525-90f7fe43-925f-4e25-86b5-095d0b2f3253.png)
 ![10주 차 Chapter  4 cat 등록 결과 화면](https://user-images.githubusercontent.com/59447401/145137533-3d2a15f3-8b21-4c7c-a7c2-ab2ebc26961e.png)
 ![10주 차 Chapter  4 결과 화면 그루밍](https://user-images.githubusercontent.com/59447401/145349363-7e7e8a16-3cf5-48ec-9758-eb5c18471b23.png)
+![10주 차 Chapter  6RepositorySerchesProcessor 추가](https://user-images.githubusercontent.com/59447401/145518678-edeb56ab-a9f2-4a16-a8e5-81b6d80407db.png)
+![10주 차 Chapter  6 dogs feed 확인](https://user-images.githubusercontent.com/59447401/145519520-b5d0329b-1464-4026-bea0-2d69abc80b05.png)
+![10주 차 Chapter  6 결과 화면 feed, groom](https://user-images.githubusercontent.com/59447401/145520982-06d7d140-ee51-4c49-aa8e-2a54da4b72c6.png)
+![10주 차 Chapter  8 domain 폴더 생성](https://user-images.githubusercontent.com/59447401/145532951-c5f192b2-c9cd-4115-a594-1d0782344db2.png)
 
 
 
