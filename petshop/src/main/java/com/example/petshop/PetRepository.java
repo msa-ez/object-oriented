@@ -15,8 +15,10 @@ public interface PetRepository {
 
 // JPA 를 기반한 Repository pattern 구현체 자동생성
 // Chpater .1
-// restful api 란 Chapter .1, Chapter .2, Chapter .3, Chapter .4
+// restful api 란 Chapter .1, Chapter .2, Chapter .3, Chapter .4, Chapter .5, Chapter .6, Chapter .7
 package com.example.petshop;
+
+import com.example.petshop.domain.Pet;
 
 import org.springframework.data.repository.CrudRepository;
 

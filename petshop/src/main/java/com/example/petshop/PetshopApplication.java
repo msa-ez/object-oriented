@@ -685,7 +685,8 @@ public class PetshopApplication {
 
 
 
-// Chapter .5
+// Chapter .5, Chapter .6
+/*
 package com.example.petshop;
 
 import java.util.HashMap;
@@ -745,6 +746,86 @@ public class PetshopApplication {
 			return message;
 		}
 		return "그루밍이 불가능한 Pet 입니다.";
+	}
+}
+*/
+
+
+
+// Chapter .7
+package com.example.petshop;
+
+import java.util.HashMap;
+import java.util.List;
+
+import javax.management.StringValueExp;
+
+import com.example.petshop.domain.Pet;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@SpringBootApplication
+@RestController
+@EnableAspectJAutoProxy
+
+public class PetshopApplication {
+
+	//static HashMap<String, Pet> pets = new HashMap<String, Pet>();
+	static String[] names = {"젤리","대박이","감자","사랑","자몽이","꼬맹이","몽이","모리","하리","해피","하트","콩","태양"};
+
+	public static void main(String[] args) {
+		// pets.put(Dog.class.getSimpleName().toLowerCase(), new Dog());
+		// pets.put(Cat.class.getSimpleName().toLowerCase(), new Cat());
+
+		SpringApplication.run(PetshopApplication.class, args);
+	}
+
+	@Autowired
+	PetRepository petRepository;
+
+	@RequestMapping(method = RequestMethod.PUT, path="pets/{petId}/feed")
+	public String feedPet(@PathVariable(value = "petId") Long petId) {
+
+		Pet thePet = petRepository.findById(petId).get();
+
+		thePet.eat();
+
+		petRepository.save(thePet);
+
+		return "맛있는 거 먹었습니다.";
+	}
+
+
+	@RequestMapping(method = RequestMethod.PUT, path="pets/{petId}/groom")
+	public String groomPet(@PathVariable(value = "petId") Long petId) {
+		Pet thePet = petRepository.findById(petId).get();
+
+		if(thePet instanceof Groomable) {
+			String message = ((Groomable)thePet).grooming();
+			petRepository.save(thePet);
+			return message;
+		}
+		return "그루밍이 불가능한 Pet 입니다.";
+	}
+	@RequestMapping(method = RequestMethod.PUT, path="cats/{petId}/groom")
+	public String groom(@PathVariable(value = "petId") Long petId) {
+		return groomPet(petId);
+	}
+	@RequestMapping(method = RequestMethod.PUT, path="cats/{petId}/feed")
+	public String feedCat(@PathVariable(value = "petId") Long petId) {
+		return feedPet(petId);
+	}
+	@RequestMapping(method = RequestMethod.PUT, path="dogs/{petId}/feed")
+	public String feedDog(@PathVariable(value = "petId") Long petId) {
+		return feedPet(petId);
 	}
 }
 
