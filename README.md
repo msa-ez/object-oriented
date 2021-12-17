@@ -1,3 +1,5 @@
+객체 지향 github 이미지
+
 # object-oriented
 
 - gitpod 통해서 랩실 오픈(https://gitpod.io/#https://github.com/msa-ez/object-oriented)
@@ -102,9 +104,29 @@
 ![10주 차 Chapter  6 dogs feed 확인](https://user-images.githubusercontent.com/59447401/145519520-b5d0329b-1464-4026-bea0-2d69abc80b05.png)
 ![10주 차 Chapter  6 결과 화면 feed, groom](https://user-images.githubusercontent.com/59447401/145520982-06d7d140-ee51-4c49-aa8e-2a54da4b72c6.png)
 ![10주 차 Chapter  8 domain 폴더 생성](https://user-images.githubusercontent.com/59447401/145532951-c5f192b2-c9cd-4115-a594-1d0782344db2.png)
-
-
-
+![Wireframes 적용방법](https://user-images.githubusercontent.com/59447401/146301453-fa1ccffd-6874-433a-bd73-c2081fe860a1.png)
+![App vue 파일](https://user-images.githubusercontent.com/59447401/146301601-2ca23ff3-7701-497e-afc1-035370812a59.png)
+![v-col](https://user-images.githubusercontent.com/59447401/146303115-db6895c3-1428-4623-b0d3-dfa952086bd6.png)
+![데이터 출력 방법](https://user-images.githubusercontent.com/59447401/146308311-2bf447d8-be60-484e-ab1f-e0d8181fa619.png)
+![선언된 데이터 출력](https://user-images.githubusercontent.com/59447401/146309378-0e4b139a-6b18-4fa9-944e-e743785b2f8b.png)
+![출력후 동일한 card](https://user-images.githubusercontent.com/59447401/146309483-7ea3f50d-c4c4-4f12-8629-682bbed95058.png)
+![method 선언과 petEnergy 증가](https://user-images.githubusercontent.com/59447401/146310578-dece193a-a9f0-41ac-bd6d-df91aa4d4c7a.png)
+![먹이주기 버튼 method 호출 ](https://user-images.githubusercontent.com/59447401/146310759-20b407db-d398-47eb-9e16-58f013acc444.png)
+![CAT 컴포넌트로 등록](https://user-images.githubusercontent.com/59447401/146322438-ad6c2917-7e0b-441e-b7e1-a3201a34a294.png)
+![components 아래 Cat vue 파일](https://user-images.githubusercontent.com/59447401/146322647-3cef705d-56fc-4fd6-a580-bd49cd7f04a5.png)
+![Cat 컴포넌트 사용](https://user-images.githubusercontent.com/59447401/146323420-f8168b72-1d88-4590-b4dc-b4ead827979d.png)
+![helloworld 연결 확인](https://user-images.githubusercontent.com/59447401/146324746-ae3af2e3-a901-4399-8dec-a3f376551173.png)
+![스크린샷 2021-12-16 오후 4 19 08](https://user-images.githubusercontent.com/59447401/146325781-5703d3ac-f3f1-4227-ac79-a5798e0048af.png)
+![강아지 추가 확인](https://user-images.githubusercontent.com/59447401/146327291-aefaf147-1525-493d-8f01-db69b9993c25.png)
+![superclass Pet](https://user-images.githubusercontent.com/59447401/146330302-22877e34-1448-4637-8d61-ad87caee3ae1.png)
+![vue-super-call 다운로드](https://user-images.githubusercontent.com/59447401/146331552-968f456a-b682-47d8-add5-a3667f1985cb.png)
+![App vue에서 cat,dog 배열로 전환 전](https://user-images.githubusercontent.com/59447401/146481943-27d2e744-7211-4805-b400-d9bb2dcef773.png)
+![App vue에서 cat,dog 배열로 전환 후](https://user-images.githubusercontent.com/59447401/146482082-5cef28ed-0927-4f05-b125-6c9ebad7303c.png)
+![App vue Pet 배열 사용](https://user-images.githubusercontent.com/59447401/146483046-5543a83d-66a9-4c86-a140-2d74c49f3ddd.png)
+![고양이 강아지 클릭 method](https://user-images.githubusercontent.com/59447401/146490737-7f644500-8e17-4c53-b58e-55bd57caca15.png)
+![고양이 강아지 클릭 method 2](https://user-images.githubusercontent.com/59447401/146490908-f3d1ff37-0690-4ba7-863f-75a255f89e59.png)
+![Pet vue 이름 클릭시 변경 설명](https://user-images.githubusercontent.com/59447401/146495702-feab3f79-fa7e-4e90-bb9c-ef9bfc774c38.png)
+![editMode 설명](https://user-images.githubusercontent.com/59447401/146495713-2a6d51da-8e8d-4976-86fb-412af3cc35df.png)
 
 
 
