@@ -760,6 +760,7 @@ import java.util.List;
 
 import javax.management.StringValueExp;
 
+import com.example.petshop.domain.Groomable;
 import com.example.petshop.domain.Pet;
 
 import org.springframework.beans.factory.annotation.Autowired;
