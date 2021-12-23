@@ -127,6 +127,44 @@
 ![고양이 강아지 클릭 method 2](https://user-images.githubusercontent.com/59447401/146490908-f3d1ff37-0690-4ba7-863f-75a255f89e59.png)
 ![Pet vue 이름 클릭시 변경 설명](https://user-images.githubusercontent.com/59447401/146495702-feab3f79-fa7e-4e90-bb9c-ef9bfc774c38.png)
 ![editMode 설명](https://user-images.githubusercontent.com/59447401/146495713-2a6d51da-8e8d-4976-86fb-412af3cc35df.png)
+![pet mall uml](https://user-images.githubusercontent.com/59447401/146880297-b63c7eb8-2062-4274-b5fa-bdc32560ecc5.png)
+![pet-store-uml](https://user-images.githubusercontent.com/59447401/146880447-cb5fabe9-8c89-419d-93f4-f5aaac4e2e25.png)
+![petStore 레파스토리 추가](https://user-images.githubusercontent.com/59447401/146889378-00b53d7f-e31f-41d1-9745-d6033126cf81.png)
+![고객 등록 결과 화면](https://user-images.githubusercontent.com/59447401/146894776-006e67da-fef3-4a22-8810-4ba44ce50339.png)
+![고객 주소 확인](https://user-images.githubusercontent.com/59447401/146894965-cc661832-2af8-424f-9323-4ae4b84c6ec6.png)
+<img width="500" alt="동물을 담는 결과화면" src="https://user-images.githubusercontent.com/59447401/147034183-d82a50c8-f8aa-491b-b8d8-06a1f13a6f1c.png">
+<img width="800" alt="cartItem에 5,6 번동물이 잘 담겼는지 확인" src="https://user-images.githubusercontent.com/59447401/147034542-3b43ceb1-b5bd-4ffa-81bf-c7f73b3235fd.png">
+![cartItem-uml](https://user-images.githubusercontent.com/59447401/147041131-5fc39329-fe57-47ad-a972-5c02dd7203fd.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
