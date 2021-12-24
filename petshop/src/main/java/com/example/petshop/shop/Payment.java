@@ -1,6 +1,5 @@
-// 13주 차 Smart UI Anti Pattern - backend 로 frontend 에 분산된 도메인 로직 옮겨 응집도 높히기
 /*
-package com.example.petshop.domain;
+package com.example.petshop.shop;
 
 import javax.persistence.Embeddable;
 

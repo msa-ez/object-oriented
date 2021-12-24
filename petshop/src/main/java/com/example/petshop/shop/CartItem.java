@@ -1,6 +1,5 @@
-// 13주 차 Smart UI Anti Pattern - backend 로 frontend 에 분산된 도메인 로직 옮겨 응집도 높히기
 /*
-package com.example.petshop.domain;
+package com.example.petshop.shop;
 
 import java.util.List;
 
@@ -12,12 +11,14 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.PostPersist;
 
+import com.example.petshop.domain.Pet;
+
 
 @Entity
 public class CartItem {
 
     @PostPersist
-    public void afterSave() { // 같은 packge에 들어있으면 쇼핑이라고 하는 쪽에서 주문을 받기 위해 카트에 담기 위해 접근이 가능합니다.
+    public void after() { // 같은 packge에 들어있으면 쇼핑이라고 하는 쪽에서 주문을 받기 위해 카트에 담기 위해 접근이 가능합니다.
         getPets().get(0).eat();
     }
 

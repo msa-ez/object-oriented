@@ -1,6 +1,5 @@
 // 13주차 마지막 과정
-/*
-package com.example.petshop.shop;
+package com.example.petshop.domain;
 
 import javax.persistence.Embeddable;
 
@@ -24,4 +23,3 @@ public class Address {
         this.zipcode = zipcode;
     }
 }
-*/

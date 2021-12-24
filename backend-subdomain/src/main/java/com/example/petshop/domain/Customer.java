@@ -1,12 +1,10 @@
 // 13주 차 마지막 과정
-/*
+
 package com.example.petshop.domain;
 
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-
-import com.example.petshop.shop.Address;
 
 //Aggregate Root
 @Entity
@@ -30,4 +28,3 @@ public class Customer {
         this.address = address;
     }
 }
-*/
