@@ -135,6 +135,23 @@
 <img width="500" alt="동물을 담는 결과화면" src="https://user-images.githubusercontent.com/59447401/147034183-d82a50c8-f8aa-491b-b8d8-06a1f13a6f1c.png">
 <img width="800" alt="cartItem에 5,6 번동물이 잘 담겼는지 확인" src="https://user-images.githubusercontent.com/59447401/147034542-3b43ceb1-b5bd-4ffa-81bf-c7f73b3235fd.png">
 ![cartItem-uml](https://user-images.githubusercontent.com/59447401/147041131-5fc39329-fe57-47ad-a972-5c02dd7203fd.png)
+![객체 지향 domain 간섭 줄이기 shop 생성](https://user-images.githubusercontent.com/59447401/147190101-e498a5d4-bb6e-4edd-ab68-2bfd0a9bf029.png)
+![shop uml 다ᄅ스프링 부트프링부트 프로젝트로 생성](https://user-images.githubusercontent.com/59447401/147190289-0b6b1ee7-a6cb-4652-b64c-16fc49a36a0e.png)
+![8083으로 연결 확인](https://user-images.githubusercontent.com/59447401/147196097-91b672ed-1ff4-4048-a5a7-734ba8e96f6a.png)
+![8083과 8080의 통신 확인](https://user-images.githubusercontent.com/59447401/147196341-1a40f24c-3f70-4fe4-b19e-dab2dadc22a6.png)
+![8083 유저 등록](https://user-images.githubusercontent.com/59447401/147196678-eab14a04-e885-4922-8b9c-9d8f3fdb6a9c.png)
+![8083 입양](https://user-images.githubusercontent.com/59447401/147196784-6281b8a0-822a-47cb-9ef1-7632b2d509be.png)
+![8088 back와 front의 연결](https://user-images.githubusercontent.com/59447401/147200822-b15c60bc-af41-43b4-a0d1-a4ed1b5b17e1.png)
+![8088 번으로 Cat 등록](https://user-images.githubusercontent.com/59447401/147201820-b815d450-dfc6-459f-8e15-4ea6885d04ea.png)
+![8088 번으로 customers 등록](https://user-images.githubusercontent.com/59447401/147201887-69a8f95c-4c24-40e6-a14b-35046fc1ef29.png)
+![subdomin npm run serve](https://user-images.githubusercontent.com/59447401/147205384-94cec5cd-517b-48dd-b802-658417a1300f.png)
+![gateway에 frontend-subdomain 8082번 추가](https://user-images.githubusercontent.com/59447401/147205517-ae8380bb-e2b1-480e-ade4-d1621196b2e8.png)
+![8082:shop 정상 접근 확인](https://user-images.githubusercontent.com/59447401/147205811-0b952c14-d8bf-4f3c-96eb-ec05b665d2f4.png)
+![gateway의 8082번의 shop를 8088의 shop로 이동시](https://user-images.githubusercontent.com/59447401/147207456-dcd6941a-cea2-4888-a0e9-0934e9ac3bce.png)
+![8080:shop로 접근시 front-subdomain의 화면 표시](https://user-images.githubusercontent.com/59447401/147208306-f23ac17c-276f-43fd-ba7b-cda4b8ba329d.png)
+![frontend-subdomain의 Pet을 cart에 담기](https://user-images.githubusercontent.com/59447401/147210767-865b7368-9024-4fc0-92dd-256630caaf37.png)
+![카트담기 정보 확인](https://user-images.githubusercontent.com/59447401/147211152-0e4cc517-b9d1-4072-bc60-c975aec9b3b4.png)
+
 
 
 
